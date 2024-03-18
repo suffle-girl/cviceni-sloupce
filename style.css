@@ -35,3 +35,23 @@ Nastavte CSS pro třídu .kontejner a .sloupec:
 - na obrazovce širší než 800px budou všechny 3 obdélníky vedle sebe
   a budou roztažené přes celou stránku, všechny budou mít stejnou šířku
 */
+
+.kontejner {
+  display: flex;
+  flex-direction: column;
+}
+
+.sloupec {
+
+}
+
+@media (min-width: 800px) {
+  .kontejner {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sloupec {
+    flex-grow: 1;
+  }
+}
