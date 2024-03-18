@@ -41,10 +41,6 @@ Nastavte CSS pro třídu .kontejner a .sloupec:
   flex-direction: column;
 }
 
-.sloupec {
-
-}
-
 @media (min-width: 800px) {
   .kontejner {
     display: flex;
